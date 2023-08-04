@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticker {
+    margin: 20px;
+}
+
+.sticker img {
+    width: 250px;
+}
+
+#result {
+    text-align: center;
+    font-size: 18px;
+}

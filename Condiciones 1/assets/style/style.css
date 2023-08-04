@@ -1,0 +1,21 @@
+/* Estilo inicial de la imagen sin borde */
+#clickable-image {
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo del borde rojo cuando se añade */
+#clickable-image.clicked {
+    border: 2px solid red;
+}
+
+body{
+    background-color: green;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 400px;
+    height: 540px;
+}
